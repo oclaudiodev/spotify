@@ -1,0 +1,62 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+dl{
+    display: flex;
+}
+dt{
+    padding: 15px;
+    color: #ffffff;
+}
+main h2,h1{
+    color: #ffffff;
+    text-align: center;
+}
+main{
+    margin: 100px 00px;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+.cartão{
+    margin: 10px;
+    background-image: linear-gradient(to top , #5e5c5c, #06b815);
+    padding:10px;
+    height: 270px;
+    width: 170px;
+    text-align: center;
+    border-radius: 6px;
+    
+}
+.cartão:hover{
+    scale: 1.3;
+    transition: 1.2s;
+}
+.cartão h2{
+ text-decoration: none;
+}
+section a{
+    text-decoration: none;
+    color: #080808;
+}
+.img:hover{
+    scale:0.9;
+    transition: 0.2s;
+}
+dt:hover{
+    scale: 0.9;
+    transition: 0.1s;
+}
+body{
+    background-image: linear-gradient(to bottom , #080808, #102b13);
+}
+dt a{
+    text-decoration: none;
+    color: #ffffff;
+}
